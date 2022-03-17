@@ -1,3 +1,19 @@
+## Plugin: obsidian-test-cleanup-cache
+
+  * Obsidian -cache databases leak your vault data (such as tags, headings, lists...)
+  * (See: https://forum.obsidian.md/t/security-vault-contents-exposed-outside-the-vaults-directory/28886 )
+
+  * This is an experimental plugin that tries to clear that cache.
+  * The goal: cache should not exist after closing obsidian.
+  
+  * P.S: This does not mean that no data is going to leak. There might be more leaked data in a database somewhere else.
+  * P.P.S: I do not know what the cache is used for. It might just be used for a shorter startup time or maybe its used for something more important.
+
+
+---
+---
+---
+
 ## Obsidian Sample Plugin
 
 This is a sample plugin for Obsidian (https://obsidian.md).
